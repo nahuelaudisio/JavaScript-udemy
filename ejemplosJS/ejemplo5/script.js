@@ -60,3 +60,11 @@ numeros = numeros.filter((e) => e%2 == 0 )// con esto, si hago que se modifique 
 numeros.map((e) => e*10)//con esto hago que los elementos de numeros aparescan multiplicados por 10
 // pero no cambia el original
 numeros = numeros.map((e) => e*10)// con hago que si cambie el array de numeros original
+
+
+personas.filter(
+    function(e){
+        if(e.nombre=="Nahuel")
+        return e;
+    }
+)// es como filtrar elementos con in if en JAVA
